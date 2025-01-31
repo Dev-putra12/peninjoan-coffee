@@ -19,19 +19,19 @@ const products = [
   {
     id: 1,
     name: "Arabica Coffee",
-    image: "/coffee1.jpeg",
+    image: "/coffee-slide-1.jpeg",
     description: "*Premium* *Arabica* *beans* with rich and smooth flavor."
   },
   {
     id: 2,
     name: "Robusta Coffee",
-    image: "/coffee2.jpeg",
+    image: "/coffee-slide-2.jpeg",
     description: "*Strong* and *full-bodied* Robusta coffee blend."
   },
   {
     id: 3,
     name: "Espresso Blend",
-    image: "/coffee3.jpeg",
+    image: "/coffee-slide-3.jpeg",
     description: "Perfect blend for your daily *espresso* shot."
   }
 ];
