@@ -15,9 +15,11 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="relative h-32 w-64 mx-auto flex items-center justify-center">
             <Image 
-              src={"/logo-peninjoan-coffee.png"} 
-              alt={"logo"}
-              fill
+              src={"/logo-footer.png"} 
+              alt={"Peninjoan Coffee Beans"}
+              // fill
+              width={500}
+              height={300}
               className="object-contain hover:scale-105 transition-transform duration-300"
             />
           </div>
@@ -33,12 +35,12 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="text-xl font-semibold mb-4">Contact</h4>
-            <p>Email: info@coffeehouse.com</p>
-            <p>Phone: +1 234 567 890</p>
+            <p>Email: kopipeninjoan@gmail.com</p>
+            <p>Telpon: +1 234 567 890</p>
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p>&copy; 2025 Peninjoan Coffee Bean. All rights reserved.</p>
+          <p>&copy; 2025 Peninjoan Coffee Beans. All rights reserved.</p>
         </div>
       </div>
     </footer>
